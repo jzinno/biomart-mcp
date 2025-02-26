@@ -1,6 +1,6 @@
 # Biomart MCP
 
-### A MCP server to interface with Biomart.
+### A MCP server to interface with Biomart
 
 [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) is an open protocol that standardizes how applications provide context to LLMs developed by [Anthropic](https://www.anthropic.com/). Here we use the [MCP python-sdk](https://github.com/modelcontextprotocol/python-sdk) to create a MCP server that interfaces with Biomart via the [pybiomart](https://github.com/jrderuiter/pybiomart) package.
 

@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "A MCP server for Biomart"
 readme = "README.md"
 requires-python = ">=3.10"
+authors = [{ name = "John Zinno" }]
+license = { text = "MIT" }
 dependencies = [
     "mcp[cli]>=1.3.0",
     "pybiomart>=0.2.0",

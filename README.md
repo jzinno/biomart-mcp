@@ -6,6 +6,8 @@
 
 ![Demo showing biomart-mcp in action](./assets/demo.png)
 
+There is a short [demo video](assets/mcp-demo.mp4) showing the MCP server in action on Claude Desktop.
+
 ## Installation
 
 ### Clone the repository
@@ -34,6 +36,7 @@ uv run --with mcp[cli] --with pybiomart mcp run /your/path/to/biomart-mcp.py
 ### Development
 
 ```bash
+# Create a virtual environment
 uv venv
 
 # MacOS/Linux
@@ -43,6 +46,9 @@ source .venv/bin/activate
 .venv\Scripts\activate
 
 uv sync #or uv add mcp[cli] pybiomart
+
+# Run the server in dev mode
+mcp dev biomart-mcp.py
 ```
 
 ## Features
@@ -66,5 +72,5 @@ Pull requests are welcome! Some small notes on development:
 
 There of course many more features that could be added, some maybe beyond the scope of the name `biomart-mcp`. Here are some ideas:
 
-- Add webscraping for resource sites with `bs4`, for example we got the Ensembl gene ID for NOTCH1 then maybe in some cases it would be usful to grap the collated `Comments and Description Text from UniProtKB` section from [it's page on USCS](https://genome.ucsc.edu/cgi-bin/hgGene?db=hg38&hgg_chrom=chr9&hgg_gene=ENST00000651671.1&hgg_start=136494433&hgg_end=136546048&hgg_type=knownGene)
+- Add webscraping for resource sites with `bs4`, for example we got the Ensembl gene ID for NOTCH1 then maybe in some cases it would be usful to grap the collated `Comments and Description Text from UniProtKB` section from [it's page on UCSC](https://genome.ucsc.edu/cgi-bin/hgGene?db=hg38&hgg_chrom=chr9&hgg_gene=ENST00000651671.1&hgg_start=136494433&hgg_end=136546048&hgg_type=knownGene)
 - $...$

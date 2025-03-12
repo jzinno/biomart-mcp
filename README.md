@@ -4,6 +4,10 @@
 
 [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) is an open protocol that standardizes how applications provide context to LLMs developed by [Anthropic](https://www.anthropic.com/). Here we use the [MCP python-sdk](https://github.com/modelcontextprotocol/python-sdk) to create a MCP server that interfaces with Biomart via the [pybiomart](https://github.com/jrderuiter/pybiomart) package.
 
+<a href="https://glama.ai/mcp/servers/v5a3mlxviu">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/v5a3mlxviu/badge" alt="Biomart MCP server" />
+</a>
+
 ![Demo showing biomart-mcp in action](./assets/demo.png)
 
 There is a short [demo video](assets/mcp-demo.mp4) showing the MCP server in action on Claude Desktop.

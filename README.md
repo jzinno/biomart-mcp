@@ -17,12 +17,6 @@ git clone https://github.com/jzinno/biomart-mcp.git
 cd biomart-mcp
 ```
 
-### Glama
-
-<a href="https://glama.ai/mcp/servers/v5a3mlxviu">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/v5a3mlxviu/badge" alt="Biomart MCP server" />
-</a>
-
 ### Claude Desktop
 
 ```bash
@@ -38,6 +32,12 @@ Set the command to:
 ```bash
 uv run --with mcp[cli] --with pybiomart mcp run /your/path/to/biomart-mcp.py
 ```
+
+### Glama
+
+<a href="https://glama.ai/mcp/servers/v5a3mlxviu">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/v5a3mlxviu/badge" alt="Biomart MCP server" />
+</a>
 
 ### Development
 

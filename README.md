@@ -25,12 +25,28 @@ uv run --with mcp[cli] mcp install --with pybiomart biomart-mcp.py
 
 ### Cursor
 
-Via Cusror's agent mode, other models can take advantage of MCP servers as well, such as those form OpenAI or DeepSeek. Click the cursor setting cogwheel and naviagate to `Features` -> `MCP Servers` -> `Add new MCP Server`. Set the name to `biomart` (or whatever you like) and `Type` to `command`.
+Via Cusror's agent mode, other models can take advantage of MCP servers as well, such as those form OpenAI or DeepSeek. Click the cursor setting cogwheel and naviagate to `MCP` and either add the MCP server to the global config or add it to the a project scope by adding `.cursor/mcp.json` to the project.
 
-Set the command to:
+Example `.cursor/mcp.json`:
 
-```bash
-uv run --with mcp[cli] --with pybiomart mcp run /your/path/to/biomart-mcp.py
+```json
+{
+    "mcpServers": {
+        "Biomart": {
+            "command": "uv",
+            "args": [
+                "run",
+                "--with",
+                "mcp[cli]",
+                "--with",
+                "pybiomart",
+                "mcp",
+                "run",
+                "/your/path/to/biomart-mcp.py"
+            ]
+        }
+    }
+}
 ```
 
 ### Glama

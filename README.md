@@ -1,5 +1,7 @@
 # Biomart MCP
 
+[![smithery badge](https://smithery.ai/badge/@jzinno/biomart-mcp)](https://smithery.ai/server/@jzinno/biomart-mcp)
+
 ### A MCP server to interface with Biomart
 
 [Model Context Protocol](https://modelcontextprotocol.io/introduction) (MCP) is an open protocol that standardizes how applications provide context to LLMs developed by [Anthropic](https://www.anthropic.com/). Here we use the [MCP python-sdk](https://github.com/modelcontextprotocol/python-sdk) to create a MCP server that interfaces with Biomart via the [pybiomart](https://github.com/jrderuiter/pybiomart) package.
@@ -9,6 +11,14 @@
 There is a short [demo video](assets/mcp-demo.mp4) showing the MCP server in action on Claude Desktop.
 
 ## Installation
+
+### Installing via Smithery
+
+To install Biomart MCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jzinno/biomart-mcp):
+
+```bash
+npx -y @smithery/cli install @jzinno/biomart-mcp --client claude
+```
 
 ### Clone the repository
 

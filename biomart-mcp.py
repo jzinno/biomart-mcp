@@ -1,3 +1,10 @@
+# /// script
+# dependencies = [
+#   "mcp[cli]",
+#   "pybiomart",
+# ]
+# ///
+
 """
 A MCP server to interface with Biomart, providing tools to query biological data.
 
@@ -297,9 +304,7 @@ def get_translation(mart: str, dataset: str, from_attr: str, to_attr: str, targe
 
 
 @mcp.tool()
-def batch_translate(
-    mart: str, dataset: str, from_attr: str, to_attr: str, targets: list[str]
-):
+def batch_translate(mart: str, dataset: str, from_attr: str, to_attr: str, targets: list[str]):
     """
     Translates multiple identifiers in a single batch operation.
 

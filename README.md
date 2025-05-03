@@ -1,5 +1,3 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/jzinno-biomart-mcp-badge.png)](https://mseep.ai/app/jzinno-biomart-mcp)
-
 # Biomart MCP
 
 [![smithery badge](https://smithery.ai/badge/@jzinno/biomart-mcp)](https://smithery.ai/server/@jzinno/biomart-mcp)

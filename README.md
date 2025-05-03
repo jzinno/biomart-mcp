@@ -1,6 +1,7 @@
 # Biomart MCP
 
 [![smithery badge](https://smithery.ai/badge/@jzinno/biomart-mcp)](https://smithery.ai/server/@jzinno/biomart-mcp)
+[![Verified on MseeP](https://mseep.ai/badge.svg)](https://mseep.ai/app/ad562201-95a7-4ceb-83d6-09eddc7fdac4)
 
 ### A MCP server to interface with Biomart
 
